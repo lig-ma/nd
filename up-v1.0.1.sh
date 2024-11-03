@@ -1,5 +1,4 @@
 #!/bin/bash
-
 clear
 BINARY_NAME="fizz"
 VERSION="latest"
@@ -21,7 +20,6 @@ GPU_UNITS="1"
 GPU_PRICE="72"
 GPU_MEMORY=""
 GPU_ID="31"
-
 # Function to detect the operating system
 detect_os() {
     case "$(uname -s)" in
