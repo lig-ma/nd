@@ -3,7 +3,6 @@ clear
 BINARY_NAME="fizz"
 VERSION="latest"
 FIZZUP_VERSION="v1.0.1"
-# Fizz variables
 GATEWAY_ADDRESS="provider.demeters.io" # Provider domain: example = provider.devnetcsphn.com
 GATEWAY_PROXY_PORT="8553" # Proxyport = 8553
 GATEWAY_WEBSOCKET_PORT="8544" # ws url of the gateway example= ws://provider.devnetcsphn.com:8544
@@ -20,7 +19,6 @@ GPU_UNITS="1"
 GPU_PRICE="72"
 GPU_MEMORY=""
 GPU_ID="31"
-# Function to detect the operating system
 detect_os() {
     case "$(uname -s)" in
         Darwin*)    echo "macos" ;;
